@@ -14,5 +14,12 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Description
 
-From a list of 5 fruits, the computer selects one at random - this is done using the choice method of Python's random module. The user is then asked to guess a letter, and the program checks to ensure the input is valid by checking both that the length = 1 and that the input is alphabetical using the isalpha() method. That's it so far - will update again as it evolves but that is surely enough excitement for now.
+This is a fruity version of the Hangman game, where a user has to guess which fruit the computer has randomly selected from a list of 5 fruits. The user inputs a letter, and once confirming the input is valid, it checks whether the letter is contained within the randomly selected word.
+
+The random fruit selection uses the choice method of Python's random module. User input is validated to ensure the length = 1 and the input is alphabetical using the isalpha() method, prompting the user to try again if the input is invalid. With a valid letter input, it is converted to lower case and a function checks if it is contained in the randomly selected word.
+
+
+
+
+
 
