@@ -20,7 +20,7 @@ Development of the game started with defining the word list and using the choice
 ## Class and Methods
 
 class Hangman:
-This class creates the game, with the following methods:
+This class creates the game, with the following methods:  
 &emsp;&emsp;def check_guess (guess):   
 &emsp;&emsp;&emsp;This method is used to check if the letter input by the user is in the randomly selected word.  
 &emsp;&emsp;def ask_for_input():  
